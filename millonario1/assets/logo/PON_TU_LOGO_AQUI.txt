@@ -1,6 +1,0 @@
-Sube aquí tu imagen de logo con el nombre exacto: logo.png
-
-Formato recomendado: PNG, fondo transparente, 400x400 px.
-
-Una vez subas logo.png, puedes borrar este archivo de texto (es solo un marcador
-para que esta carpeta no quede vacía y GitHub la conserve al subir el proyecto).
