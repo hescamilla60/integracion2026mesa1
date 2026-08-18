@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Quién Sabe Más? — El Reto del Millón</title>
+<meta name="description" content="Un juego de preguntas y respuestas al estilo del clásico concurso televisivo.">
+<link rel="icon" href="assets/logo/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="rays" aria-hidden="true"></div>
+
+<!-- ===================== PANTALLA: INICIO ===================== -->
+<section id="pantalla-inicio" class="pantalla activa">
+  <header class="marca">
+    <img id="logo-inicio" class="logo" src="assets/logo/logo.png" alt="Logo del concurso" onerror="this.style.display='none'">
+    <h1 class="titulo-juego">¿QUIÉN SABE MÁS?</h1>
+    <p class="subtitulo">EL RETO DEL MILLÓN</p>
+  </header>
+
+  <div class="panel-inicio">
+    <p class="descripcion-inicio">
+      20 preguntas. Un premio que crece en cada acierto. Dos comodines para salvarte.
+      El banco de preguntas se elige al azar en cada intento, así que nunca juegas la misma partida dos veces.
+    </p>
+    <button id="btn-jugar" class="btn-dorado">JUGAR AHORA</button>
+    <button id="btn-como-jugar" class="btn-fantasma">¿Cómo se juega?</button>
+  </div>
+
+  <p class="pie-inicio">Banco de preguntas: <span id="conteo-preguntas">—</span> disponibles</p>
+</section>
+
+<!-- ===================== PANTALLA: CÓMO SE JUEGA ===================== -->
+<section id="pantalla-reglas" class="pantalla">
+  <div class="panel-reglas">
+    <h2>Cómo se juega</h2>
+    <ul>
+      <li>Cada intento te presenta <strong>20 preguntas</strong>, elegidas al azar del banco, sin repetirse dentro de la misma partida.</li>
+      <li>Las preguntas suben de dificultad a medida que avanzas.</li>
+      <li>Cada respuesta correcta te acerca al premio máximo. Una respuesta incorrecta termina el juego.</li>
+      <li>Existen <strong>niveles de seguridad</strong> (pregunta 5 y 10): si los alcanzas, no puedes bajar de ese premio aunque falles después.</li>
+      <li>Tienes dos comodines disponibles una sola vez cada uno:
+        <ul>
+          <li><strong>50 / 50</strong>: elimina dos opciones incorrectas.</li>
+          <li><strong>Retirarse</strong>: te vas con el premio acumulado hasta ese momento.</li>
+        </ul>
+      </li>
+    </ul>
+    <button class="btn-dorado" id="btn-volver-inicio">VOLVER AL INICIO</button>
+  </div>
+</section>
+
+<!-- ===================== PANTALLA: JUEGO ===================== -->
+<section id="pantalla-juego" class="pantalla">
+  <div class="tablero">
+
+    <div class="zona-pregunta">
+      <div class="encabezado-pregunta">
+        <span class="numero-pregunta">Pregunta <span id="num-actual">1</span> de 20</span>
+        <span class="categoria-pregunta" id="categoria-actual">Categoría</span>
+      </div>
+
+      <div class="caja-pregunta">
+        <p id="texto-pregunta">Cargando pregunta…</p>
+      </div>
+
+      <div class="opciones" id="contenedor-opciones">
+        <!-- Las 4 opciones (A-D) se generan dinámicamente -->
+      </div>
+
+      <div class="comodines">
+        <button class="comodin" id="comodin-5050" title="Eliminar dos opciones incorrectas">
+          <span class="comodin-icono">50:50</span>
+        </button>
+        <button class="comodin" id="comodin-retirar" title="Retirarte con el premio actual">
+          <span class="comodin-icono">🚩 Retirarme</span>
+        </button>
+      </div>
+    </div>
+
+    <aside class="escalera" id="escalera">
+      <h3>Premios</h3>
+      <ol id="lista-escalera" reversed></ol>
+    </aside>
+
+  </div>
+</section>
+
+<!-- ===================== PANTALLA: FIN DEL JUEGO ===================== -->
+<section id="pantalla-final" class="pantalla">
+  <div class="panel-final">
+    <h2 id="titulo-final">¡Fin del juego!</h2>
+    <p id="mensaje-final">Ganaste</p>
+    <p class="premio-final" id="premio-final">$0</p>
+    <button class="btn-dorado" id="btn-jugar-de-nuevo">JUGAR OTRA VEZ</button>
+    <button class="btn-fantasma" id="btn-final-inicio">MENÚ PRINCIPAL</button>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
