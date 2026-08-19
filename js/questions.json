@@ -1,70 +1,185 @@
 {
   "_instrucciones": "Cada pregunta necesita: id (único, no lo repitas), categoria, dificultad (facil, media, dificil, extrema), pregunta, opciones (exactamente 4), respuesta (indice 0-3 de la opcion correcta dentro de 'opciones'). Agrega tantas preguntas como quieras al final del arreglo 'preguntas'. No borres esta clave '_instrucciones', el juego la ignora automáticamente.",
   "preguntas": [
-    { "id": 1, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es el río más largo del mundo?", "opciones": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"], "respuesta": 1 },
-    { "id": 2, "categoria": "Historia", "dificultad": "facil", "pregunta": "¿En qué año llegó Cristóbal Colón a América?", "opciones": ["1392", "1492", "1520", "1592"], "respuesta": 1 },
-    { "id": 3, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Cuál es el planeta más cercano al Sol?", "opciones": ["Venus", "Tierra", "Mercurio", "Marte"], "respuesta": 2 },
-    { "id": 4, "categoria": "Arte", "dificultad": "facil", "pregunta": "¿Quién pintó la Mona Lisa?", "opciones": ["Miguel Ángel", "Rafael", "Leonardo da Vinci", "Donatello"], "respuesta": 2 },
-    { "id": 5, "categoria": "Deporte", "dificultad": "facil", "pregunta": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?", "opciones": ["2", "3", "4", "5"], "respuesta": 2 },
-    { "id": 6, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es el país más extenso del mundo por territorio?", "opciones": ["China", "Estados Unidos", "Canadá", "Rusia"], "respuesta": 3 },
-    { "id": 7, "categoria": "Literatura", "dificultad": "facil", "pregunta": "¿Quién escribió 'Cien años de soledad'?", "opciones": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar", "Jorge Luis Borges"], "respuesta": 1 },
-    { "id": 8, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Cuál es el símbolo químico del oro?", "opciones": ["Ag", "Au", "Gd", "Or"], "respuesta": 1 },
-    { "id": 9, "categoria": "Historia", "dificultad": "media", "pregunta": "¿En qué año cayó el Muro de Berlín?", "opciones": ["1987", "1989", "1991", "1993"], "respuesta": 1 },
-    { "id": 10, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es la capital de Australia?", "opciones": ["Sídney", "Melbourne", "Canberra", "Perth"], "respuesta": 2 },
-    { "id": 11, "categoria": "Música", "dificultad": "media", "pregunta": "¿Qué compositor quedó sordo y aun así siguió componiendo?", "opciones": ["Mozart", "Beethoven", "Bach", "Chopin"], "respuesta": 1 },
-    { "id": 12, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Qué gas necesitan las plantas para realizar la fotosíntesis?", "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"], "respuesta": 2 },
-    { "id": 13, "categoria": "Historia", "dificultad": "facil", "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?", "opciones": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"], "respuesta": 2 },
-    { "id": 14, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Cuál es el desierto más grande del mundo?", "opciones": ["Sahara", "Gobi", "Antártida", "Kalahari"], "respuesta": 2 },
-    { "id": 15, "categoria": "Cine", "dificultad": "facil", "pregunta": "¿Qué director dirigió la trilogía original de 'El Señor de los Anillos'?", "opciones": ["Peter Jackson", "James Cameron", "Steven Spielberg", "George Lucas"], "respuesta": 0 },
-    { "id": 16, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto aproximadamente?", "opciones": ["186", "206", "226", "246"], "respuesta": 1 },
-    { "id": 17, "categoria": "Deporte", "dificultad": "media", "pregunta": "¿En qué país se originó el fútbol moderno?", "opciones": ["Brasil", "España", "Inglaterra", "Italia"], "respuesta": 2 },
-    { "id": 18, "categoria": "Historia", "dificultad": "media", "pregunta": "¿Quién fue conocido como 'El Libertador' en Suramérica?", "opciones": ["José de San Martín", "Simón Bolívar", "Antonio Nariño", "Francisco de Paula Santander"], "respuesta": 1 },
-    { "id": 19, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es el océano más grande del mundo?", "opciones": ["Atlántico", "Índico", "Pacífico", "Ártico"], "respuesta": 2 },
-    { "id": 20, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?", "opciones": ["Húmero", "Fémur", "Tibia", "Radio"], "respuesta": 1 },
-    { "id": 21, "categoria": "Arte", "dificultad": "media", "pregunta": "¿A qué movimiento artístico pertenece Salvador Dalí?", "opciones": ["Cubismo", "Surrealismo", "Impresionismo", "Fauvismo"], "respuesta": 1 },
-    { "id": 22, "categoria": "Literatura", "dificultad": "media", "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?", "opciones": ["Lope de Vega", "Miguel de Cervantes", "Francisco de Quevedo", "Calderón de la Barca"], "respuesta": 1 },
-    { "id": 23, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Cuál es la montaña más alta del mundo?", "opciones": ["K2", "Kilimanjaro", "Everest", "Aconcagua"], "respuesta": 2 },
-    { "id": 24, "categoria": "Historia", "dificultad": "dificil", "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?", "opciones": ["1912", "1914", "1916", "1918"], "respuesta": 1 },
-    { "id": 25, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Cuál es la velocidad aproximada de la luz en el vacío?", "opciones": ["300.000 km/s", "150.000 km/s", "1.080.000 km/h", "3.000 km/s"], "respuesta": 0 },
-    { "id": 26, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es el país más poblado del mundo actualmente?", "opciones": ["China", "Estados Unidos", "India", "Indonesia"], "respuesta": 2 },
-    { "id": 27, "categoria": "Mitología", "dificultad": "media", "pregunta": "¿Quién es el dios griego del inframundo?", "opciones": ["Zeus", "Poseidón", "Hades", "Ares"], "respuesta": 2 },
-    { "id": 28, "categoria": "Música", "dificultad": "facil", "pregunta": "¿Cuántas cuerdas tiene una guitarra clásica estándar?", "opciones": ["4", "5", "6", "7"], "respuesta": 2 },
-    { "id": 29, "categoria": "Ciencia", "dificultad": "dificil", "pregunta": "¿Quién propuso la teoría de la relatividad general?", "opciones": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Stephen Hawking"], "respuesta": 1 },
-    { "id": 30, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Cuál es el lago de agua dulce más grande del mundo por volumen?", "opciones": ["Lago Victoria", "Lago Baikal", "Lago Superior", "Mar Caspio"], "respuesta": 1 },
-    { "id": 31, "categoria": "Historia", "dificultad": "media", "pregunta": "¿Qué imperio construyó Machu Picchu?", "opciones": ["Azteca", "Maya", "Inca", "Olmeca"], "respuesta": 2 },
-    { "id": 32, "categoria": "Deporte", "dificultad": "media", "pregunta": "¿Cuántos jugadores conforman un equipo de baloncesto en la cancha?", "opciones": ["4", "5", "6", "7"], "respuesta": 1 },
-    { "id": 33, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?", "opciones": ["Hígado", "Corazón", "Piel", "Pulmón"], "respuesta": 2 },
-    { "id": 34, "categoria": "Geografía", "dificultad": "dificil", "pregunta": "¿Cuál es la capital de Kazajistán?", "opciones": ["Almaty", "Astaná", "Biskek", "Taskent"], "respuesta": 1 },
-    { "id": 35, "categoria": "Arte", "dificultad": "dificil", "pregunta": "¿Qué artista pintó 'El Guernica'?", "opciones": ["Joan Miró", "Salvador Dalí", "Pablo Picasso", "Francisco de Goya"], "respuesta": 2 },
-    { "id": 36, "categoria": "Historia", "dificultad": "facil", "pregunta": "¿Qué país construyó la Gran Muralla?", "opciones": ["Japón", "Corea", "China", "Mongolia"], "respuesta": 2 },
-    { "id": 37, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Cómo se llama la capa de la Tierra donde vivimos?", "opciones": ["Núcleo", "Manto", "Corteza", "Atmósfera"], "respuesta": 2 },
-    { "id": 38, "categoria": "Literatura", "dificultad": "dificil", "pregunta": "¿Quién escribió '1984'?", "opciones": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H. G. Wells"], "respuesta": 1 },
-    { "id": 39, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿En qué continente se encuentra Egipto?", "opciones": ["Asia", "África", "Europa", "Oceanía"], "respuesta": 1 },
-    { "id": 40, "categoria": "Deporte", "dificultad": "facil", "pregunta": "¿Cada cuánto se juega la Copa Mundial de Fútbol?", "opciones": ["2 años", "3 años", "4 años", "5 años"], "respuesta": 2 },
-    { "id": 41, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Cuál es el metal líquido a temperatura ambiente?", "opciones": ["Plomo", "Mercurio", "Estaño", "Zinc"], "respuesta": 1 },
-    { "id": 42, "categoria": "Historia", "dificultad": "media", "pregunta": "¿Quién pintó la Capilla Sixtina?", "opciones": ["Leonardo da Vinci", "Rafael", "Miguel Ángel", "Tiziano"], "respuesta": 2 },
-    { "id": 43, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Qué estrecho separa España de Marruecos?", "opciones": ["Estrecho de Bering", "Estrecho de Gibraltar", "Estrecho de Ormuz", "Estrecho de Magallanes"], "respuesta": 1 },
-    { "id": 44, "categoria": "Ciencia", "dificultad": "dificil", "pregunta": "¿Cuál es la unidad básica de la herencia genética?", "opciones": ["Célula", "Cromosoma", "Gen", "Proteína"], "respuesta": 2 },
-    { "id": 45, "categoria": "Cine", "dificultad": "media", "pregunta": "¿Qué película ganó el primer Óscar a Mejor Película en 1929?", "opciones": ["Metrópolis", "Alas", "El cantante de jazz", "Amanecer"], "respuesta": 1 },
-    { "id": 46, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es el país con más volcanes activos del mundo?", "opciones": ["Japón", "Indonesia", "Chile", "Estados Unidos"], "respuesta": 1 },
-    { "id": 47, "categoria": "Historia", "dificultad": "dificil", "pregunta": "¿En qué año se firmó la independencia de Colombia?", "opciones": ["1810", "1819", "1821", "1830"], "respuesta": 1 },
-    { "id": 48, "categoria": "Música", "dificultad": "media", "pregunta": "¿Qué instrumento tiene 88 teclas?", "opciones": ["Órgano", "Piano", "Acordeón", "Clavicordio"], "respuesta": 1 },
-    { "id": 49, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Cuántos planetas tiene el sistema solar actualmente?", "opciones": ["7", "8", "9", "10"], "respuesta": 1 },
-    { "id": 50, "categoria": "Geografía", "dificultad": "dificil", "pregunta": "¿Cuál es el país más pequeño del mundo?", "opciones": ["Mónaco", "San Marino", "Vaticano", "Liechtenstein"], "respuesta": 2 },
-    { "id": 51, "categoria": "Mitología", "dificultad": "facil", "pregunta": "¿Quién es el rey de los dioses en la mitología griega?", "opciones": ["Apolo", "Zeus", "Hermes", "Hefesto"], "respuesta": 1 },
-    { "id": 52, "categoria": "Historia", "dificultad": "media", "pregunta": "¿Qué civilización construyó las pirámides de Giza?", "opciones": ["Mesopotámica", "Egipcia", "Fenicia", "Persa"], "respuesta": 1 },
-    { "id": 53, "categoria": "Deporte", "dificultad": "dificil", "pregunta": "¿Qué país ha ganado más veces la Copa Mundial de Fútbol?", "opciones": ["Alemania", "Argentina", "Brasil", "Italia"], "respuesta": 2 },
-    { "id": 54, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Qué científico formuló las leyes del movimiento y la gravitación universal?", "opciones": ["Galileo Galilei", "Isaac Newton", "Johannes Kepler", "Nicolás Copérnico"], "respuesta": 1 },
-    { "id": 55, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Cuál es la ciudad más poblada de Suramérica?", "opciones": ["Bogotá", "Lima", "São Paulo", "Buenos Aires"], "respuesta": 2 },
-    { "id": 56, "categoria": "Arte", "dificultad": "media", "pregunta": "¿Qué escultura representa a un hombre pensando, obra de Auguste Rodin?", "opciones": ["El Beso", "El Pensador", "David", "La Piedad"], "respuesta": 1 },
-    { "id": 57, "categoria": "Literatura", "dificultad": "facil", "pregunta": "¿Quién escribió 'Romeo y Julieta'?", "opciones": ["Charles Dickens", "William Shakespeare", "Oscar Wilde", "Jane Austen"], "respuesta": 1 },
-    { "id": 58, "categoria": "Ciencia", "dificultad": "dificil", "pregunta": "¿Cómo se llama la teoría que explica el origen y expansión del universo?", "opciones": ["Teoría de cuerdas", "Big Bang", "Teoría del caos", "Relatividad especial"], "respuesta": 1 },
-    { "id": 59, "categoria": "Geografía", "dificultad": "facil", "pregunta": "¿Cuál es la capital de Japón?", "opciones": ["Kioto", "Osaka", "Tokio", "Yokohama"], "respuesta": 2 },
-    { "id": 60, "categoria": "Historia", "dificultad": "media", "pregunta": "¿Quién fue el primer hombre en pisar la Luna?", "opciones": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"], "respuesta": 2 },
-    { "id": 61, "categoria": "Ciencia", "dificultad": "facil", "pregunta": "¿Qué gas respiramos principalmente para vivir?", "opciones": ["Dióxido de carbono", "Nitrógeno", "Oxígeno", "Hidrógeno"], "respuesta": 2 },
-    { "id": 62, "categoria": "Geografía", "dificultad": "media", "pregunta": "¿Qué río atraviesa la ciudad de París?", "opciones": ["Rin", "Támesis", "Sena", "Danubio"], "respuesta": 2 },
-    { "id": 63, "categoria": "Deporte", "dificultad": "media", "pregunta": "¿En qué deporte se usa el término 'jaque mate'?", "opciones": ["Ajedrez", "Bridge", "Damas", "Go"], "respuesta": 0 },
-    { "id": 64, "categoria": "Historia", "dificultad": "dificil", "pregunta": "¿Qué tratado puso fin a la Primera Guerra Mundial?", "opciones": ["Tratado de Versalles", "Tratado de Tordesillas", "Tratado de Utrecht", "Tratado de Yalta"], "respuesta": 0 },
-    { "id": 65, "categoria": "Ciencia", "dificultad": "media", "pregunta": "¿Cuál es el proceso por el cual el agua líquida se convierte en vapor?", "opciones": ["Condensación", "Sublimación", "Evaporación", "Solidificación"], "respuesta": 2 }
+  { "id": 1, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué filósofo griego fundó la Academia con la inscripción 'Que no entre nadie que no sepa geometría'?", 
+  "opciones": ["Aristóteles", "Platón", "Pitágoras", "Tales"], "respuesta": 1 }
+{ "id": 2, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿A qué matemático se le atribuye la medición de la altura de las pirámides usando la proporcionalidad de las sombras?", 
+  "opciones": ["Euclides", "Arquímedes", "Tales de Mileto", "Platón"], "respuesta": 2 }
+{ "id": 3, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué número irracional fue el primero cuya naturaleza no conmensurable fue demostrada por los pitagóricos?", 
+  "opciones": ["Pi", "Número e", "Raíz cuadrada de 2", "Raíz cuadrada de 3"], "respuesta": 2 }
+{ "id": 4, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿En qué civilización antigua se originó el uso de tablillas de arcilla para registros matemáticos?", 
+  "opciones": ["Egipto", "Grecia", "Babilonia", "Roma"], "respuesta": 2 }
+{ "id": 5, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué famoso matemático medieval es conocido como Leonardo de Pisa?", 
+  "opciones": ["Fibonacci", "Abelardo", "Alcuino de York", "Pedro Hispano"], "respuesta": 0 }
+{ "id": 6, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Cuál era la base principal del sistema de numeración utilizado por los antiguos egipcios?", 
+  "opciones": ["Base 60", "Base 20", "Base 10", "Base 12"], "respuesta": 2 }
+{ "id": 7, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué obra de Euclides sistematizó gran parte del conocimiento matemático de su época?", 
+  "opciones": ["La República", "El Menón", "Elementos", "Metafísica"], "respuesta": 2 }
+{ "id": 8, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué matemático es considerado el mayor genio de la Grecia clásica, además de ser físico e ingeniero?", 
+  "opciones": ["Pitágoras", "Euclides", "Arquímedes", "Zenón"], "respuesta": 2 }
+{ "id": 9, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿En qué país actual se encuentra la región donde nació el matemático Omar Khayyam?", 
+  "opciones": ["Irak", "Egipto", "Irán", "Grecia"], "respuesta": 2 }
+{ "id": 10, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué figura geométrica era fundamental para Platón al restringir la geometría a su uso?", 
+  "opciones": ["Regla y compás", "Mecánica", "Escuadra", "Sextante"], "respuesta": 0 }
+{ "id": 11, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Cuál es la suma de los ángulos internos de un triángulo según la geometría pitagórica?", 
+  "opciones": ["90 grados", "180 grados", "270 grados", "360 grados"], "respuesta": 1 }
+{ "id": 12, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué escuela de pensamiento griego se centraba en la búsqueda de verdades universales y necesarias?", 
+  "opciones": ["Egipcia", "Babilónica", "Griega", "Maya"], "respuesta": 2 }
+{ "id": 13, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Cómo se llama el método de Platón para llegar a la solución de un problema mediante preguntas?", 
+  "opciones": ["Método Pitagórico", "Método de Exhaución", "Método Socrático", "Método de Posición Falsa"], "respuesta": 2 }
+{ "id": 14, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué matemático francés del siglo XVII trabajó modificando el método de exhaución?", 
+  "opciones": ["Descartes", "Leibniz", "Roberval", "Newton"], "respuesta": 2 }
+{ "id": 15, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿A qué campo de la matemática se asocia principalmente al pensador Al-Khowârizmî?", 
+  "opciones": ["Geometría", "Álgebra", "Lógica", "Cálculo"], "respuesta": 1 }
+{ "id": 16, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Cuántos sólidos regulares existen según la clasificación que Platón adoptó?", 
+  "opciones": ["Cuatro", "Cinco", "Seis", "Siete"], "respuesta": 1 }
+{ "id": 17, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿En qué ciudad nació Alcuino de York, figura clave de la lógica medieval?", 
+  "opciones": ["Londres", "París", "York", "Roma"], "respuesta": 2 }
+{ "id": 18, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Quién cerró permanentemente la Academia de Atenas en el año 529 d.C.?", 
+  "opciones": ["Julio César", "Justiniano", "Platón", "Alejandro Magno"], "respuesta": 1 }
+{ "id": 19, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué tipo de triángulos se usan en el teorema de Pitágoras?", 
+  "opciones": ["Equiláteros", "Isósceles", "Rectángulos", "Escalenos"], "respuesta": 2 }
+{ "id": 20, "categoria": "Historia de la matemática", "dificultad": "fácil", 
+  "pregunta": "¿Qué símbolo usaban los babilonios para representar el valor 1 en su escritura cuneiforme?", 
+  "opciones": ["Círculo", "Cuadrado", "Cuña vertical", "Cuña horizontal"], "respuesta": 2 }
+{ "id": 21, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué sólido platónico tiene caras que son pentágonos regulares?", 
+  "opciones": ["Tetraedro", "Octaedro", "Dodecaedro", "Icosaedro"], "respuesta": 2 }
+{ "id": 22, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Cómo se conoce el método de aproximación de áreas y volúmenes utilizado por Arquímedes?", 
+  "opciones": ["Método Indivisible", "Método de Exhaución", "Método de Diferencias", "Posición Falsa"], "respuesta": 1 }
+{ "id": 23, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿En qué diálogo platónico Sócrates ayuda a un joven esclavo a duplicar el área de un cuadrado?", 
+  "opciones": ["La República", "El Sofista", "El Menón", "El Banquete"], "respuesta": 2 }
+{ "id": 24, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Quién introdujo el término 'método de exhaución' en el siglo XVII?", 
+  "opciones": ["Gregorio St. Vincent", "Roberval", "Cavalieri", "Descartes"], "respuesta": 0 }
+{ "id": 25, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué concepto matemático prohibió Aristóteles para evitar las paradojas de Zenón?", 
+  "opciones": ["Infinito potencial", "Infinito actual", "Números negativos", "Números irracionales"], "respuesta": 1 }
+{ "id": 26, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué matemático trabajó con las cuadraturas de las lúnulas como paso previo a la cuadratura del círculo?", 
+  "opciones": ["Hipócrates de Quíos", "Tales de Mileto", "Pitágoras", "Euclides"], "respuesta": 0 }
+{ "id": 27, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué característica distingue a la numeración hierática egipcia de la jeroglífica?", 
+  "opciones": ["Es posicional", "Usa base 60", "Usa cifrado o abreviaturas", "Es solo oral"], "respuesta": 2 }
+{ "id": 28, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué matemático es conocido por proponer un sistema de razonamiento llamado silogística?", 
+  "opciones": ["Sócrates", "Platón", "Euclides", "Aristóteles"], "respuesta": 3 }
+{ "id": 29, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué civilización podía resolver ecuaciones cuadráticas transformándolas en problemas de área y perímetro?", 
+  "opciones": ["Egipcia", "Babilónica", "Griega", "Maya"], "respuesta": 1 }
+{ "id": 30, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué técnica sistemática utilizó Roberval para aproximar el área bajo una parábola?", 
+  "opciones": ["Triángulos inscritos", "Rectángulos de aproximación", "Sectores circulares", "Cónicas"], "respuesta": 1 }
+{ "id": 31, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Cuál es la relación entre el aprendizaje y el conocimiento según el diálogo Menón de Platón?", 
+  "opciones": ["El aprendizaje es repetición", "El aprendizaje es reminiscencia", "El aprendizaje es imposible", "El aprendizaje es invención"], "respuesta": 1 }
+{ "id": 32, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué pensador medieval fue conocido como Papa Juan XXI y contribuyó a la lógica?", 
+  "opciones": ["Abelardo", "Pedro Hispano", "Alcuino de York", "Fibonacci"], "respuesta": 1 }
+{ "id": 33, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué matemático griego propuso una solución a la ecuación cúbica usando parábolas e hipérbolas?", 
+  "opciones": ["Menecmo", "Euclides", "Tales", "Zenón"], "respuesta": 0 }
+{ "id": 34, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿A qué se debe el uso del número 10 como base en la mayoría de los sistemas antiguos?", 
+  "opciones": ["A la astronomía", "A los diez dedos humanos", "A razones místicas", "Al comercio"], "respuesta": 1 }
+{ "id": 35, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué tipo de representación matemática rechazaba Platón por considerarla de utilidad práctica?", 
+  "opciones": ["Matemática aplicada", "Matemática pura", "Geometría abstracta", "Aritmética"], "respuesta": 0 }
+{ "id": 36, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué ventaja principal ofrecía el sistema sexagesimal babilónico frente al egipcio?", 
+  "opciones": ["Uso de jeroglíficos", "Cálculo fácil con fracciones", "Simplicidad de signos", "Falta de posición"], "respuesta": 1 }
+{ "id": 37, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué sólido regular tiene veinte caras formadas por triángulos equiláteros?", 
+  "opciones": ["Dodecaedro", "Icosaedro", "Octaedro", "Tetraedro"], "respuesta": 1 }
+{ "id": 38, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Quién es el autor de los 'Segundos analíticos', obra fundamental sobre la ciencia demostrativa?", 
+  "opciones": ["Sócrates", "Aristóteles", "Euclides", "Pedro Hispano"], "respuesta": 1 }
+{ "id": 39, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿Qué concepto matemático babilónico permitió un alto desarrollo del álgebra?", 
+  "opciones": ["Notación posicional", "Uso del cero", "Fracciones unitarias", "Geometría pura"], "respuesta": 0 }
+{ "id": 40, "categoria": "Historia de la matemática", "dificultad": "media", 
+  "pregunta": "¿En qué obra se discute la construcción de un estado ideal y el papel de la matemática en él?", 
+  "opciones": ["El Sofista", "El Menón", "La República", "Metafísica"], "respuesta": 2 }
+{ "id": 41, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿En qué obra de Aristóteles se expone el sistema de silogística?", 
+  "opciones": ["Física", "Segundos analíticos", "Primeros analíticos", "Metafísica"], "respuesta": 2 }
+{ "id": 42, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Cuál es el número de lados del polígono con el que Arquímedes dedujo sus aproximaciones para Pi?", 
+  "opciones": ["12", "48", "96", "100"], "respuesta": 2 }
+{ "id": 43, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué matemático utilizó el principio de suponer lo contrario para demostrar la irracionalidad por contradicción?", 
+  "opciones": ["Euclides", "Los pitagóricos", "Tales", "Roberval"], "respuesta": 1 }
+{ "id": 44, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué método egipcio se utilizaba específicamente para resolver ecuaciones lineales?", 
+  "opciones": ["Exhaución", "Posición falsa", "Posicional", "Cifrado"], "respuesta": 1 }
+{ "id": 45, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué filósofo argumentó que los sólidos platónicos representan las formas de los átomos de los elementos?", 
+  "opciones": ["Demócrito", "Epicuro", "Platón", "Aristóteles"], "respuesta": 2 }
+{ "id": 46, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué ventaja técnica del sistema babilónico les permitió superar a los egipcios en álgebra?", 
+  "opciones": ["Fórmulas geométricas", "Notación sexagesimal posicional", "Papiros largos", "Uso de regla"], "respuesta": 1 }
+{ "id": 47, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Quién objetó a Cavalieri basándose en las antinomias de Zenón y la prohibición aristotélica del infinito?", 
+  "opciones": ["Roberval", "Sus críticos contemporáneos", "Descartes", "Pascal"], "respuesta": 1 }
+{ "id": 48, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué proposición de los Elementos de Euclides afirma que dos lados de un triángulo son mayores que el tercero?", 
+  "opciones": ["Proposición 1", "Proposición 10", "Proposición 20", "Proposición 47"], "respuesta": 2 }
+{ "id": 49, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Cuántos jeroglíficos eran necesarios para representar el número 999 en el sistema egipcio?", 
+  "opciones": ["3", "9", "18", "27"], "respuesta": 3 }
+{ "id": 50, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué matemático introdujo el método de los rectángulos inscritos y circunscritos como alternativa a Arquímedes?", 
+  "opciones": ["Leibniz", "Roberval", "Newton", "Cavalieri"], "respuesta": 1 }
+{ "id": 51, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué diálogo de Platón se centra en consideraciones acerca de la lógica?", 
+  "opciones": ["El Banquete", "La República", "El Sofista", "El Menón"], "respuesta": 2 }
+{ "id": 52, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿A qué período pertenecen la mayoría de las tablillas matemáticas recuperadas de Babilonia?", 
+  "opciones": ["Periodo Neo-Babilónico", "Old Babylonian (1800-1600 a.C.)", "Periodo Persa", "Periodo Griego"], "respuesta": 1 }
+{ "id": 53, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿En qué obra de Aristóteles se expone su respuesta a Zenón sobre la definición real?", 
+  "opciones": ["Primeros analíticos", "Metafísica", "Política", "Poética"], "respuesta": 1 }
+{ "id": 54, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué matemático medieval planteó un sistema deductivo basado en patrones primitivos para inferir esquemas?", 
+  "opciones": ["Pedro Hispano", "Abelardo", "Alcuino de York", "Los Estoicos"], "respuesta": 3 }
+{ "id": 55, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué técnica utilizaba Arquímedes para hallar áreas encerrando la figura entre dos que se aproximan indefinidamente?", 
+  "opciones": ["Triangulación", "Cuadratura", "Exhaución por acotamiento", "Método de la suma"], "respuesta": 2 }
+{ "id": 56, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué filósofo medieval murió el 21 de abril de 1142?", 
+  "opciones": ["Alcuino de York", "Abelardo", "Pedro Hispano", "Juan XXI"], "respuesta": 1 }
+{ "id": 57, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué matemático griego es mencionado por Euclides como el origen del método de exhaución?", 
+  "opciones": ["Arquímedes", "Eudoxo de Cnidos", "Tales", "Hipócrates"], "respuesta": 1 }
+{ "id": 58, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué escuela de matemáticas moderna comprende la mayor parte de los siglos XVII a XIX?", 
+  "opciones": ["Renacentista", "Medieval", "Matemática Moderna", "Pitagórica"], "respuesta": 2 }
+{ "id": 59, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿Qué característica de la escritura babilónica dificultaba la compilación de tratados largos?", 
+  "opciones": ["Uso de tinta", "Escritura en arcilla", "Papiros frágiles", "Falta de símbolos"], "respuesta": 1 }
+{ "id": 60, "categoria": "Historia de la matemática", "dificultad": "difícil", 
+  "pregunta": "¿A qué se refiere Platón cuando dice que el filósofo debe buscar 'el bien'?", 
+  "opciones": ["A la riqueza", "A la verdad universal a través de la matemática", "A la victoria militar", "Al poder político"], "respuesta": 1 } 
   ]
 }
